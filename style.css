@@ -1,0 +1,498 @@
+body
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+.menu-deroulant
+{
+	height: 100px;
+	width: 100%;
+	margin-top: -100px;
+	background-color: white;
+	position: fixed;
+	z-index: 1000;
+}
+
+#conteneur
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo
+{
+	margin-left: 45%;
+	position: relative;
+	bottom: 30%;
+}
+
+.element
+{
+	white-space: nowrap;
+	margin-top: 20px;
+}
+
+.ancre
+{
+	display: inline;
+	margin-right: 40px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #4fafcf;
+}
+
+.ancre:hover
+{
+	color: #4d4b4b;
+	border-top: 3px #3995B0 solid ;
+}
+
+#background
+{
+	margin-top: 100px;
+	background-image: url("bg1.jpg");
+	height: 550px;
+	background-size: cover;
+	position: relative;
+}
+
+.ensemble
+{	
+	width: 90%;
+	max-width: 1290px;
+	margin: 0 auto;
+}
+
+.colonne
+{
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 80px;
+	padding-top: 120px;
+	width: 55%;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.Webagency-bleu
+{
+	color: #3995B0;
+}
+
+.slogan-blanc
+{
+	color: white;
+}
+	
+.phrase-commerciale
+{
+	color: white;
+	font-size: 15px;
+	margin-top: -25px;
+}
+
+.info
+{
+	border-radius: 3px 3px 3px 3px;
+	background-color: #4fafcf;
+	border-bottom: 3px #347c95 solid;
+	height: 37px;
+	width: 130px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+.bouton-gauche
+{
+	position: absolute;
+	left: -40px;
+	top: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: rgba(0,0,0, 0.5);
+	border-radius: 50%;
+}
+
+.bouton-droit
+{
+	position: absolute;
+	right: -40px;
+	top: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: rgba(0,0,0, 0.5);
+	border-radius: 50%;
+}
+
+.bordure-bas
+{
+	width: 200px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	border: 2px #3995B0 solid;
+}
+
+.nos-services
+{
+	position: relative;
+}
+
+.titre
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.separateur
+{
+	margin-top: -40px;
+}
+
+.phrase-accroche
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.colonne-services
+{
+	height: 100%;
+}
+
+.colonne-image
+{
+	margin-right: 70%;
+}
+
+.image-services
+{
+	width: 100%;
+}
+
+.bloc-ux
+{
+	position: relative;
+	width: 64%;
+	margin-left: 35%;
+	margin-right: 60%;
+	margin-top: -15%;
+}
+
+.titre-ux
+{
+	width: 100px;
+	font-weight: bold;
+	font-size: 120%;
+	margin-left: 80px;
+	margin-left: 70px;
+	margin-top: -40px;
+}
+
+.paragraphe-ux
+{
+
+	margin-left: 68px;
+	width: 60%;
+	max-width: 410px;
+	margin-right: 20%;
+	margin-bottom: 50px;
+}
+
+.bloc-ui
+{
+	position: relative;
+	width: 64%;
+	margin-left: 35%;
+	margin-right: 60%;
+}
+
+.titre-ui
+{
+	width: 100px;
+	font-weight: bold;
+	font-size: 120%;
+	margin-left: 80px;
+	margin-left: 70px;
+	margin-top: -40px;
+}
+
+.paragraphe-ui
+{
+
+	margin-left: 68px;
+	width: 60%;
+	max-width: 410px;
+	margin-right: 20%;
+	margin-bottom: 50px;
+}
+
+.bloc-seo
+{
+	position: relative;
+	width: 64%;
+	margin-left: 35%;
+	margin-right: 60%;
+}
+
+.titre-seo
+{
+	width: 100px;
+	font-weight: bold;
+	font-size: 120%;
+	margin-left: 80px;
+	white-space: nowrap;
+	margin-left: 70px;
+	margin-top: -40px;
+}
+
+.paragraphe-seo
+{
+
+	margin-left: 68px;
+	width: 60%;
+	max-width: 410px;
+	height: 80%;
+	margin-right: 20%;
+	word-wrap: break-word;
+	margin-bottom: 50px;
+}
+
+#nos-projets
+{
+	height: 950px;
+	background-color: #F4F4F4;
+}
+
+.flex-menu-projets
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.onglet-projets
+{
+	color: #27333f;
+	background-color: #e0e3e4;
+	height: 35px;
+	width: 85px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 30px;
+}
+
+.onglet-projets:hover
+{
+	background-color: #5bb6d6;
+ 	color: white;
+ 	border-bottom: 3px #347c95 solid;
+}
+
+.onglet-projets:hover:after 
+{ 	
+    content: "";
+    display: block;
+    width: 0; 
+ 	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #347c95;
+	position: relative;
+	top: 15px;
+	left: 25px;
+ }
+
+.onglet-projets:nth-child(4) 
+{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.onglet-projets:nth-child(1) 
+{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.conteneur-projets
+{
+	height: 460px;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 10%;
+
+}
+
+
+.projet
+{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: inline;
+	margin-right: 5%;
+}
+
+.cache
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 13%;
+	width: 98%;
+	visibility: hidden;
+	border: 1px black solid;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.projet:hover .cache
+{
+	visibility: visible;
+}
+
+.img-un, .img-deux, .img-trois, .img-quatre, .img-cinq, .img-six, .img-sept, .img-huit
+{
+	height: auto;
+	width: 20%;
+}
+
+.retour-ligne
+{
+	margin-top: 50px;
+}
+
+#contact
+{
+	background-image:url("map.jpg");
+	height: 600px;	
+	width: 100%;
+}
+
+.conteneur-contact
+{
+	height: 500px;	
+	width: 21%;
+	background-color: #F4F4F4;
+	margin-left: 70%;
+	padding: 1%;
+	position: relative;
+	top: 50px;
+}
+
+.coordonnees-agence
+{
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.post-message
+{
+	height: 60%;
+	width: 100%;
+}
+
+.nom ,.mail, .sujet, .contenu-message
+{
+	width: 80%;
+	display: block;
+	margin: 5%;
+	padding: 1%;
+	border: 0.5px grey solid;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.envoyer-message
+{
+	font-size: 0.8em;
+	height: 40px;
+	border-radius: 5px 5px 5px 5px;
+	background: #5bb6d6;
+	color: white;
+	border-bottom: 3px #347c95 solid;
+	margin-left: 5%;
+	margin-right: 50%;
+}
+
+@media screen and (max-width: 767px)
+{
+	.logo
+	{
+		margin-left: 10%;
+	}
+
+	.colonne
+	{
+		padding-left: 5%;
+		width: 100%;
+		height: 100%;
+	}
+
+	.logo,.bouton-gauche, .bouton-droit, .icon-angle-left, .icon-angle-right, .image-services, .cercle
+	{
+		display: none;
+	}
+
+	.bloc-ux, .titre-ux, .paragraphe-ux, .bloc-ui, .titre-ui, .paragraphe-ui, .bloc-seo, .titre-seo, .paragraphe-seo
+	{
+		margin: auto;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.element
+	{
+		margin: 0 auto;
+	}
+
+	.ancre
+	{
+		margin-right: 15px;
+	}
+
+	.envoyer-message
+	{
+		width: 30%;
+		min-width: 45px;
+	}
+
+	.cache
+	{
+		font-size: 0.5em;
+		height: 30px;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+
+ @media screen and (max-width: 1286px)
+{
+	.projet:hover .cache, .icon-eye,.icon-circle
+	{
+		display: none;
+	}
+}
+
+input:valid
+{
+	border:2px green solid;
+}
+
+
